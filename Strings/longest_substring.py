@@ -11,3 +11,7 @@ class Solution:
             max_length = max(len(chars) - start, max_length)
         return max_length
 
+
+string = "pwwwke"
+a = Solution().lengthOfLongestSubstring(string) # 3 (wke)
+print(a)
